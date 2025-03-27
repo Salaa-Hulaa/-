@@ -1,0 +1,19 @@
+name: data-analysis-env
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - scipy
+    - contourpy
+    - kiwisolver
+    - pillow
+    - pyparsing
+    - python-dateutil
+    - six
+    - cycler
+    - fonttools
+    - packaging
